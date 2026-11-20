@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pso-optimizer"
+version = "0.1.0"
+description = "Parallel and Serial Particle Swarm Optimizer"
+dependencies = ["numpy"]
+
+[tool.setuptools]
+py-modules = ["ParallelParticleSwarmOptimizer", "ParticleSwarmOptimizer"]
